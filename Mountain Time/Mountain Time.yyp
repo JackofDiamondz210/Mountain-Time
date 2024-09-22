@@ -34,12 +34,18 @@
   },
   "name":"Mountain Time",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Fall_Mountain","path":"rooms/Fall_Mountain/Fall_Mountain.yy",},},
+    {"id":{"name":"Autumn_Leaf_Pile_32x32","path":"sprites/Autumn_Leaf_Pile_32x32/Autumn_Leaf_Pile_32x32.yy",},},
+    {"id":{"name":"Background_Mountain_Fall_2","path":"sprites/Background_Mountain_Fall_2/Background_Mountain_Fall_2.yy",},},
+    {"id":{"name":"Fall_leaf_2","path":"sprites/Fall_leaf_2/Fall_leaf_2.yy",},},
+    {"id":{"name":"Fall_leaf_3","path":"sprites/Fall_leaf_3/Fall_leaf_3.yy",},},
+    {"id":{"name":"Fall_Leaf_4","path":"sprites/Fall_Leaf_4/Fall_Leaf_4.yy",},},
+    {"id":{"name":"Fall_leaf","path":"sprites/Fall_leaf/Fall_leaf.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Fall_Mountain","path":"rooms/Fall_Mountain/Fall_Mountain.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
