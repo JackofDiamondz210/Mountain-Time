@@ -34,7 +34,10 @@
   },
   "name":"Mountain Time",
   "resources":[
+    {"id":{"name":"player_obj","path":"objects/player_obj/player_obj.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"background_mountain_sketch","path":"sprites/background_mountain_sketch/background_mountain_sketch.yy",},},
+    {"id":{"name":"winter_wall_spr","path":"sprites/winter_wall_spr/winter_wall_spr.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
