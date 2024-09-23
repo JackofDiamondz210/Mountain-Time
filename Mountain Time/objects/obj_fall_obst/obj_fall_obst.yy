@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_Fall_Wall_Object",
-    "path":"sprites/spr_Fall_Wall_Object/spr_Fall_Wall_Object.yy",
+    "name":"spr_Fall_Wall_Object_1",
+    "path":"sprites/spr_Fall_Wall_Object_1/spr_Fall_Wall_Object_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
