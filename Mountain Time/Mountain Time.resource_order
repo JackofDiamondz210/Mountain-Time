@@ -17,6 +17,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"wall_Obj","order":1,"path":"objects/wall_Obj/wall_Obj.yy",},
     {"name":"winter_wall_spr","order":1,"path":"sprites/winter_wall_spr/winter_wall_spr.yy",},
   ],
 }
