@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -34,15 +34,24 @@
   },
   "name":"Mountain Time",
   "resources":[
+    {"id":{"name":"boundary_Obj","path":"objects/boundary_Obj/boundary_Obj.yy",},},
     {"id":{"name":"player_obj","path":"objects/player_obj/player_obj.yy",},},
+    {"id":{"name":"wall_Obj","path":"objects/wall_Obj/wall_Obj.yy",},},
+    {"id":{"name":"R_Summer","path":"rooms/R_Summer/R_Summer.yy",},},
+    {"id":{"name":"R_Winter","path":"rooms/R_Winter/R_Winter.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"background_mountain_sketch","path":"sprites/background_mountain_sketch/background_mountain_sketch.yy",},},
+    {"id":{"name":"player_placeholder","path":"sprites/player_placeholder/player_placeholder.yy",},},
+    {"id":{"name":"summer_wall_spr","path":"sprites/summer_wall_spr/summer_wall_spr.yy",},},
+    {"id":{"name":"summerBG_spr","path":"sprites/summerBG_spr/summerBG_spr.yy",},},
     {"id":{"name":"winter_wall_spr","path":"sprites/winter_wall_spr/winter_wall_spr.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"R_Summer","path":"rooms/R_Summer/R_Summer.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"R_Winter","path":"rooms/R_Winter/R_Winter.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

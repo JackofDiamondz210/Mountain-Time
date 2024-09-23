@@ -17,6 +17,13 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"boundary_Obj","order":2,"path":"objects/boundary_Obj/boundary_Obj.yy",},
+    {"name":"wall_Obj","order":1,"path":"objects/wall_Obj/wall_Obj.yy",},
+    {"name":"R_Summer","order":1,"path":"rooms/R_Summer/R_Summer.yy",},
+    {"name":"R_Winter","order":2,"path":"rooms/R_Winter/R_Winter.yy",},
+    {"name":"player_placeholder","order":4,"path":"sprites/player_placeholder/player_placeholder.yy",},
+    {"name":"summer_wall_spr","order":3,"path":"sprites/summer_wall_spr/summer_wall_spr.yy",},
+    {"name":"summerBG_spr","order":2,"path":"sprites/summerBG_spr/summerBG_spr.yy",},
     {"name":"winter_wall_spr","order":1,"path":"sprites/winter_wall_spr/winter_wall_spr.yy",},
   ],
 }
