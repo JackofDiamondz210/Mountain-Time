@@ -19,14 +19,15 @@
   "height":10,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"45dc87b2-692c-4723-879d-bcefa8d328a1","blendMode":3,"displayName":"Layer 1","isLocked":false,"name":"45dc87b2-692c-4723-879d-bcefa8d328a1","opacity":48.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"15bf097b-9650-4b66-a0d8-1d196dffe5f8","blendMode":0,"displayName":"default","isLocked":false,"name":"15bf097b-9650-4b66-a0d8-1d196dffe5f8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"winter_wall_spr",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"winter_scene",
+    "path":"folders/Sprites/winter_scene.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

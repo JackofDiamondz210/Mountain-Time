@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_fall_obst",
-  "eventList":[],
+  "%Name":"wall_Obj",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_fall_obst",
+  "name":"wall_Obj",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -26,10 +28,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"spr_Fall_Wall_Object_1",
-    "path":"sprites/spr_Fall_Wall_Object_1/spr_Fall_Wall_Object_1.yy",
+    "name":"summer_wall_spr",
+    "path":"sprites/summer_wall_spr/summer_wall_spr.yy",
   },
   "spriteMaskId":null,
   "visible":true,
