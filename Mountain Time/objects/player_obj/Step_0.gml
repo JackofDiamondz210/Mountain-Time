@@ -8,10 +8,10 @@ var moveRight = keyboard_check(ord("D"));
 var jump = keyboard_check(vk_space);
 var walkSpeed = 2;
 
-var switchSpring = keyboard_check(ord("1"));
-var switchSummer = keyboard_check(ord("2"));
-var switchFall = keyboard_check(ord("3"));
-var switchWinter = keyboard_check(ord("4"));
+var switchSpring = keyboard_check_released(ord("1"));
+var switchSummer = keyboard_check_released(ord("2"));
+var switchFall = keyboard_check_released(ord("3"));
+var switchWinter = keyboard_check_released(ord("4"));
 
 horizSpeed = (moveRight-moveLeft) * walkSpeed;
 
@@ -19,23 +19,23 @@ vertSpeed += grav;
 
 
 
-if(!place_meeting(x+horizSpeed,y, wall_Obj) && !place_meeting(x+horizSpeed, y, boundary_Obj)) {
+if(!place_meeting(x+horizSpeed,y, PO_wall) && !place_meeting(x+horizSpeed, y, boundary_Obj)) {
 		x += horizSpeed;
 		
 		} else {
 			var pixelCheck = sign(horizSpeed);
-			while (!place_meeting(x+pixelCheck,y, wall_Obj) && !place_meeting(x+pixelCheck,y, boundary_Obj)) {
+			while (!place_meeting(x+pixelCheck,y, PO_wall) && !place_meeting(x+pixelCheck,y, boundary_Obj)) {
 				x += pixelCheck;
 			}
 			
 			horizSpeed=0;
 		}
 		
-if(!place_meeting(x +horizSpeed, y+vertSpeed, wall_Obj) && !place_meeting(x +horizSpeed, y+vertSpeed, boundary_Obj)) {
+if(!place_meeting(x +horizSpeed, y+vertSpeed, PO_wall) && !place_meeting(x +horizSpeed, y+vertSpeed, boundary_Obj)) {
 		y += vertSpeed;
 		} else {
 			var pixelCheck = sign(vertSpeed);
-			while (!place_meeting(x+ horizSpeed, y + pixelCheck, wall_Obj) && !place_meeting(x+ horizSpeed, y + pixelCheck, boundary_Obj)) {	
+			while (!place_meeting(x+ horizSpeed, y + pixelCheck, PO_wall) && !place_meeting(x+ horizSpeed, y + pixelCheck, boundary_Obj)) {	
 			y += pixelCheck;
 			}
 			vertSpeed=0;
@@ -43,7 +43,7 @@ if(!place_meeting(x +horizSpeed, y+vertSpeed, wall_Obj) && !place_meeting(x +hor
 
 
 if(jump) {
-	if (place_meeting(x,y+1,wall_Obj) || place_meeting(x,y+1,boundary_Obj)) {
+	if (place_meeting(x,y+1, PO_wall) || place_meeting(x,y+1,boundary_Obj)) {
 		vertSpeed = jumpHeight;
 		
 	}
@@ -53,11 +53,11 @@ if(jump) {
 if (switchSpring){
 	//room_goto(R_Spring);	
 } if (switchSummer){
-	room_goto(R_Summer);	
+	room_goto(rm_summer_mountain);	
 }
 if (switchFall){
-	//room_goto(R_Fall);
+	room_goto(rm_fall_mountain);
 }
 if(switchWinter){
-	room_goto(R_Winter);	
+	room_goto(rm_winter_mountain);	
 }
