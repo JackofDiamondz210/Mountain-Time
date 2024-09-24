@@ -51,7 +51,7 @@ if(jump) {
 
 //1 2 3 4 keys switch between rooms
 if (switchSpring){
-	//room_goto(R_Spring);	
+	room_goto(rm_spring_mountain);	
 } if (switchSummer){
 	room_goto(rm_summer_mountain);	
 }
