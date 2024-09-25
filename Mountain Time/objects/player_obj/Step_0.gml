@@ -1,7 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-/// @description Insert description here
-// You can write your code in this editor
 
 var moveLeft = keyboard_check(ord("A"));
 var moveRight = keyboard_check(ord("D"));
