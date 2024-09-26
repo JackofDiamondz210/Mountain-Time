@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"player_placeholder",
+    "path":"sprites/player_placeholder/player_placeholder.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
